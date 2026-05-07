@@ -1,0 +1,7 @@
+column count: 4
+Row count: 5
+Smartphone
+Laptop
+Tablet 
+Smartwatch
+Wireless Earbuds

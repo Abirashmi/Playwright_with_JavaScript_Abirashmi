@@ -1,0 +1,168 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: uploadFile.spec.js >> downloadFile
+- Location: tests\uploadFile.spec.js:31:6
+
+# Error details
+
+```
+Error: apiRequestContext._wrapApiCall: EBUSY: resource busy or locked, open 'C:\Users\abira\OneDrive\Desktop\playwright\test-results\.playwright-artifacts-0\traces\a520f03fed7a46afd5cc-d3d25fbfbc5171b6465c.network'
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - link "Fork me on GitHub":
+      - /url: https://github.com/tourdedave/the-internet
+      - img "Fork me on GitHub" [ref=e5] [cursor=pointer]
+    - generic [ref=e7]:
+      - heading "File Downloader" [level=3] [ref=e8]
+      - link "Jpeg_with_exif.jpeg" [ref=e9] [cursor=pointer]:
+        - /url: download/Jpeg_with_exif.jpeg
+      - link "4E63F169-C198-4218-B8CE-5AAEF8E0131E.png" [ref=e10] [cursor=pointer]:
+        - /url: download/4E63F169-C198-4218-B8CE-5AAEF8E0131E.png
+      - link "tmpn7p2fu44.txt" [ref=e11] [cursor=pointer]:
+        - /url: download/tmpn7p2fu44.txt
+      - link "SomeFile.txt" [ref=e12] [cursor=pointer]:
+        - /url: download/SomeFile.txt
+      - link "1776337012367.jpg" [ref=e13] [cursor=pointer]:
+        - /url: download/1776337012367.jpg
+      - link "oats_upload_test_m_uchcg4.txt" [ref=e14] [cursor=pointer]:
+        - /url: download/oats_upload_test_m_uchcg4.txt
+      - link "Automation_Curriculum.pdf" [ref=e15] [cursor=pointer]:
+        - /url: download/Automation_Curriculum.pdf
+      - link "premium_photo-1678565879444-f87c8bd9f241.avif" [ref=e16] [cursor=pointer]:
+        - /url: download/premium_photo-1678565879444-f87c8bd9f241.avif
+      - link "myfile.jpeg" [ref=e17] [cursor=pointer]:
+        - /url: download/myfile.jpeg
+      - link "6321a523-c0fd-40e9-afed-7f687bfb35fb.txt" [ref=e18] [cursor=pointer]:
+        - /url: download/6321a523-c0fd-40e9-afed-7f687bfb35fb.txt
+      - link "tmph9kmu6sm.txt" [ref=e19] [cursor=pointer]:
+        - /url: download/tmph9kmu6sm.txt
+      - link "tmpn8a1nkd6.txt" [ref=e20] [cursor=pointer]:
+        - /url: download/tmpn8a1nkd6.txt
+      - link "sample-upload.txt" [ref=e21] [cursor=pointer]:
+        - /url: download/sample-upload.txt
+      - link "40d8f827-6a0f-4729-af8c-53dbfd11a6f6.txt" [ref=e22] [cursor=pointer]:
+        - /url: download/40d8f827-6a0f-4729-af8c-53dbfd11a6f6.txt
+      - link "test_upload.txt" [ref=e23] [cursor=pointer]:
+        - /url: download/test_upload.txt
+      - link "LambdaTest.txt" [ref=e24] [cursor=pointer]:
+        - /url: download/LambdaTest.txt
+      - link "tmpce70r3sa.txt" [ref=e25] [cursor=pointer]:
+        - /url: download/tmpce70r3sa.txt
+      - link "test.txt" [ref=e26] [cursor=pointer]:
+        - /url: download/test.txt
+      - link "68ed5d3a-ac90-48c1-a5ac-046e07c74fd5.txt" [ref=e27] [cursor=pointer]:
+        - /url: download/68ed5d3a-ac90-48c1-a5ac-046e07c74fd5.txt
+      - link "sample.pdf" [ref=e28] [cursor=pointer]:
+        - /url: download/sample.pdf
+      - link "5328cf10-e541-4312-ba85-c44a52e6e760.txt" [ref=e29] [cursor=pointer]:
+        - /url: download/5328cf10-e541-4312-ba85-c44a52e6e760.txt
+      - link "tmpwuz1gwtq.txt" [ref=e30] [cursor=pointer]:
+        - /url: download/tmpwuz1gwtq.txt
+      - link "tmp3dc2ylyh.txt" [ref=e31] [cursor=pointer]:
+        - /url: download/tmp3dc2ylyh.txt
+      - link "chromedriver.exe" [ref=e32] [cursor=pointer]:
+        - /url: download/chromedriver.exe
+      - link "OIP.jpg" [ref=e33] [cursor=pointer]:
+        - /url: download/OIP.jpg
+      - link "oats_upload_test_onzjwyr_.txt" [ref=e34] [cursor=pointer]:
+        - /url: download/oats_upload_test_onzjwyr_.txt
+      - link "e3e43a91-4913-4168-88ee-713dd36a8644.txt" [ref=e35] [cursor=pointer]:
+        - /url: download/e3e43a91-4913-4168-88ee-713dd36a8644.txt
+      - link "test-upload.txt" [ref=e36] [cursor=pointer]:
+        - /url: download/test-upload.txt
+      - link "sample-zip-file.zip" [ref=e37] [cursor=pointer]:
+        - /url: download/sample-zip-file.zip
+      - link "random_data.txt" [ref=e38] [cursor=pointer]:
+        - /url: download/random_data.txt
+      - link "test5020779513023140739.tmp" [ref=e39] [cursor=pointer]:
+        - /url: download/test5020779513023140739.tmp
+      - link "selenide-intro.txt" [ref=e40] [cursor=pointer]:
+        - /url: download/selenide-intro.txt
+      - link "upload_test.txt" [ref=e41] [cursor=pointer]:
+        - /url: download/upload_test.txt
+      - link "oats_upload_test_r63ahgxa.txt" [ref=e42] [cursor=pointer]:
+        - /url: download/oats_upload_test_r63ahgxa.txt
+      - link "water.png" [ref=e43] [cursor=pointer]:
+        - /url: download/water.png
+      - link "tmp7y9z9okc.txt" [ref=e44] [cursor=pointer]:
+        - /url: download/tmp7y9z9okc.txt
+      - link "test1215016509769504359.tmp" [ref=e45] [cursor=pointer]:
+        - /url: download/test1215016509769504359.tmp
+      - link "input.csv" [active] [ref=e46] [cursor=pointer]:
+        - /url: download/input.csv
+      - link "abstract-black-horse-head.png" [ref=e47] [cursor=pointer]:
+        - /url: download/abstract-black-horse-head.png
+      - link "spectrum-logo.png" [ref=e48] [cursor=pointer]:
+        - /url: download/spectrum-logo.png
+      - link "inputdata.json" [ref=e49] [cursor=pointer]:
+        - /url: download/inputdata.json
+      - link "7ed60280-042d-4379-bb65-50e5fe6db4b9.txt" [ref=e50] [cursor=pointer]:
+        - /url: download/7ed60280-042d-4379-bb65-50e5fe6db4b9.txt
+      - link "zero_bytes_file.txt" [ref=e51] [cursor=pointer]:
+        - /url: download/zero_bytes_file.txt
+      - link "17c365fd-ca24-4742-8aeb-cd4ac20bc374.txt" [ref=e52] [cursor=pointer]:
+        - /url: download/17c365fd-ca24-4742-8aeb-cd4ac20bc374.txt
+      - link "selenium-snapshot.png" [ref=e53] [cursor=pointer]:
+        - /url: download/selenium-snapshot.png
+      - link "797c9f6f-6e5a-44af-8762-04205ce0debc.txt" [ref=e54] [cursor=pointer]:
+        - /url: download/797c9f6f-6e5a-44af-8762-04205ce0debc.txt
+      - link "f2a307b4-e54a-4598-9b49-24b8ca1bff0a.txt" [ref=e55] [cursor=pointer]:
+        - /url: download/f2a307b4-e54a-4598-9b49-24b8ca1bff0a.txt
+      - link "sample_upload.txt" [ref=e56] [cursor=pointer]:
+        - /url: download/sample_upload.txt
+      - link "tmpzuo0wpz6.txt" [ref=e57] [cursor=pointer]:
+        - /url: download/tmpzuo0wpz6.txt
+      - link "1a9f4fb4-1d7a-4f40-b136-681c1c4703f7.txt" [ref=e58] [cursor=pointer]:
+        - /url: download/1a9f4fb4-1d7a-4f40-b136-681c1c4703f7.txt
+      - link "77c8632f-f034-4d70-9bc8-64b9fe6ff401.txt" [ref=e59] [cursor=pointer]:
+        - /url: download/77c8632f-f034-4d70-9bc8-64b9fe6ff401.txt
+      - link "some-file.txt" [ref=e60] [cursor=pointer]:
+        - /url: download/some-file.txt
+      - link "sample_media_file.png" [ref=e61] [cursor=pointer]:
+        - /url: download/sample_media_file.png
+      - link "06f662de-d671-4baa-8492-6bfd9a477875.txt" [ref=e62] [cursor=pointer]:
+        - /url: download/06f662de-d671-4baa-8492-6bfd9a477875.txt
+      - link "file.txt" [ref=e63] [cursor=pointer]:
+        - /url: download/file.txt
+      - link "Plead but better.mp3" [ref=e64] [cursor=pointer]:
+        - /url: download/Plead but better.mp3
+      - link "sample-1mb-test-file.dat" [ref=e65] [cursor=pointer]:
+        - /url: download/sample-1mb-test-file.dat
+      - link "tmp87ug_9p1.txt" [ref=e66] [cursor=pointer]:
+        - /url: download/tmp87ug_9p1.txt
+      - link "upload-me.txt" [ref=e67] [cursor=pointer]:
+        - /url: download/upload-me.txt
+      - link "752f299f-19aa-45c8-ae20-a47e6481927e.jpeg" [ref=e68] [cursor=pointer]:
+        - /url: download/752f299f-19aa-45c8-ae20-a47e6481927e.jpeg
+      - link "test.jpeg" [ref=e69] [cursor=pointer]:
+        - /url: download/test.jpeg
+      - link "images (1).png" [ref=e70] [cursor=pointer]:
+        - /url: download/images (1).png
+      - link "أين-تقع-شرم-الشيخ-في-مصر (1).jpg" [ref=e71] [cursor=pointer]:
+        - /url: download/أين-تقع-شرم-الشيخ-في-مصر (1).jpg
+      - link "demo sequence.txt" [ref=e72] [cursor=pointer]:
+        - /url: download/demo sequence.txt
+      - link "tmprakcg7yf.txt" [ref=e73] [cursor=pointer]:
+        - /url: download/tmprakcg7yf.txt
+      - link "tmp1bmu3zec.txt" [ref=e74] [cursor=pointer]:
+        - /url: download/tmp1bmu3zec.txt
+      - link "tmpsho1uub9.txt" [ref=e75] [cursor=pointer]:
+        - /url: download/tmpsho1uub9.txt
+  - generic [ref=e77]:
+    - separator [ref=e78]
+    - generic [ref=e79]:
+      - text: Powered by
+      - link "Elemental Selenium" [ref=e80] [cursor=pointer]:
+        - /url: http://elementalselenium.com/
+```

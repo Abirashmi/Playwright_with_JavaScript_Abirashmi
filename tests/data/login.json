@@ -1,0 +1,17 @@
+{
+    "users":[
+        {
+            "username":"standard_user",
+            "password":"secret_sauce"
+        },
+       {
+            "username":"Admin",
+            "password":"admin123"
+        },
+        {
+            "username":"Admin",
+            "password":"admin123"
+        }
+    ]
+    
+}

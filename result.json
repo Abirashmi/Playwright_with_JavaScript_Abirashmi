@@ -1,0 +1,342 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\abira\\OneDrive\\Desktop\\playwright\\playwright.config.js",
+    "rootDir": "C:/Users/abira/OneDrive/Desktop/playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/abira/OneDrive/Desktop/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/abira/OneDrive/Desktop/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/abira/OneDrive/Desktop/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/abira/OneDrive/Desktop/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/abira/OneDrive/Desktop/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/abira/OneDrive/Desktop/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "result.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tags.spec.js",
+      "file": "tags.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "first test @reg",
+          "ok": true,
+          "tags": [
+            "reg"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "First test run successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-28T02:36:38.981Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\abira\\OneDrive\\Desktop\\playwright\\test-results\\tags-first-test-reg-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f04d274b98211334efa-8d61f81ac2d344ef6319",
+          "file": "tags.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "second test @reg",
+          "ok": true,
+          "tags": [
+            "reg"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "second test executed successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-28T02:36:39.029Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\abira\\OneDrive\\Desktop\\playwright\\test-results\\tags-second-test-reg-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f04d274b98211334efa-59a286917c50a8204622",
+          "file": "tags.spec.js",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "third test @smoke",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "third test executed successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-28T02:36:39.058Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\abira\\OneDrive\\Desktop\\playwright\\test-results\\tags-third-test-smoke-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f04d274b98211334efa-ef36c5ce44138a663c11",
+          "file": "tags.spec.js",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "fourth test @reg",
+          "ok": true,
+          "tags": [
+            "reg"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "fourth test executed successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-28T02:36:39.079Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\abira\\OneDrive\\Desktop\\playwright\\test-results\\tags-fourth-test-reg-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f04d274b98211334efa-9a91c682935f88542c9a",
+          "file": "tags.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "fifth test @reg @smoke",
+          "ok": true,
+          "tags": [
+            "reg",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "fifth test executed successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-28T02:36:39.103Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\abira\\OneDrive\\Desktop\\playwright\\test-results\\tags-fifth-test-reg-smoke-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f04d274b98211334efa-dbac2024b70cc5346ccc",
+          "file": "tags.spec.js",
+          "line": 17,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-04-28T02:36:38.142Z",
+    "duration": 997.3990000000001,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
