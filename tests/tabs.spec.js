@@ -64,7 +64,7 @@ test("page navigation",async({page})=>{
 
 })
 
-test.only("taskWindow",async({page,context})=>{
+test("taskWindow",async({page,context})=>{
     await page.goto("https://letcode.in/window")
    
     const [newPage]=await Promise.all([

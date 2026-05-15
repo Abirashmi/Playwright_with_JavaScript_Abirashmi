@@ -1,6 +1,6 @@
 import{test,expect} from '@playwright/test'
 
-test ("assertion", async({page})=>{
+test("assertion", async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/")
 
     await expect(page).toHaveURL("https://testautomationpractice.blogspot.com/")
@@ -62,7 +62,7 @@ test("Negative username test",async({page})=>{
     await page.waitForTimeout(3000)
 })
 
-test.only("Negative password test",async({page})=>{
+test("Negative password test",async({page})=>{
     await page.goto("https://practicetestautomation.com/practice-test-login/")
 
     await page.locator('//input[@id="username"]').fill("student")

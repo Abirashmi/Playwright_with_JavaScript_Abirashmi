@@ -28,7 +28,7 @@ test("multiple file upload",async({page})=>{
 })
 
 //download file
-test.only("downloadFile",async({page})=>{
+test("downloadFile",async({page})=>{
 
   await page.goto("https://the-internet.herokuapp.com/download")
 

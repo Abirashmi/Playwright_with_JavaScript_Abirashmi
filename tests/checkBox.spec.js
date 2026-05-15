@@ -35,7 +35,7 @@ test("multipleCheckBox",async({page})=>{
     await page.pause()
 })
 
-test.only("task radio box",async({page})=>{
+test("task radio box",async({page})=>{
     await page.goto("https://letcode.in/radio")
     
     await expect(page.locator("//label[contains(text(),'Select any one')]")).toBeVisible()

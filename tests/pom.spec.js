@@ -10,7 +10,7 @@ test("login orangehrm",async({page})=>{
         //await log.login("Admin","admin123")
 })
 
-test.only("multiple users login",async({page})=>{
+test("multiple users login",async({page})=>{
         const log=new SauceDemo(page)
 
         for(const user of login.users){

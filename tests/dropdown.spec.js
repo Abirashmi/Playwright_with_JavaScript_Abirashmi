@@ -22,7 +22,7 @@ test("MultipleSelection",async({page})=>{
 
 //task
 
-test.only("letcodeFruits",async({page})=>{
+test("letcodeFruits",async({page})=>{
     await page.goto("https://letcode.in/dropdowns")
 
     await page.locator('//select[@id="fruits"]').selectOption("Apple")

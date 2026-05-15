@@ -91,7 +91,7 @@ test("alert with ok & cancel",async({page})=>{
     await page.waitForTimeout(3000)
 })
 
-test.only("alertWithText",async({page})=>{
+test("alertWithText",async({page})=>{
     await page.goto("https://demo.automationtesting.in/Alerts.html")
 
     page.on("dialog",async alertWithText=>{
